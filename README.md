@@ -1,6 +1,6 @@
 **Inventory Management System**
 
-Admin Credentials- **email- abinaya@gmail.com, password- P@ssw0rd**
+Admin Credentials- **email- admin@gmail.com, password- P@ssw0rd**
 
 Requirements:
 
