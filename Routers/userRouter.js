@@ -1,5 +1,5 @@
 import express from 'express'
-import { deleteUser, updateUser } from '../Controllers/UserController.js'
+import { deleteUser, updateUser } from '../Controllers/userController.js'
 import { verifyToken } from '../Middleware/verifyToken.js';
 
 
