@@ -1,0 +1,65 @@
+**Inventory Management System**
+
+Admin Credentials- email- abinaya@gmail.com, password- P@ssw0rd
+
+### Requirements:
+
+-   Design and develop an Application using the full-stack.
+-   Users can view all their inventory products, stocks, order, vendor details on the dashboard.
+-   Users can create, update , delete , view all their inventory product details on the dashboard (CRUD).
+-   Enables users to track inventory stocks, including quantities, locations, and product details on individual components.
+-   Show related notifications or alerts refill stocking and avoid running out of stock.
+-   Allows users track purchase orders for inventory, including supplier information, order status, and delivery dates
+-   Generate reports and analytics on important inventory details like stock levels, turnover rates, and inventory value.
+
+Technologies Used
+
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+- JWT for authentication
+
+### Postman Documentation:
+
+    https://documenter.getpostman.com/view/34987093/2sA3dxEXmC
+
+Endpoint 1: /api/create-product
+
+Description: Endpoint to create a product.
+
+Endpoint 2: /api/getProduct
+
+Description: Endpoint to fetch the products.
+
+Endpoint 3: /api/update-product/:id
+
+Description: Endpoint to update the product.
+
+Endpoint 4: /api/deleteProduct/:id
+
+Description: Endpoint to delete a product.
+
+Endpoint 5: /api/create-vendor
+
+Description: Endpoint to create a vendor.
+
+Endpoint 6: /api/get-vendor
+
+Description: Endpoint to fetch the vendors details.
+
+Endpoint 7: /api/create-order
+
+Description: Endpoint to create an order.
+
+Endpoint 8: /api/get-order
+
+Description: Endpoint to fetch the orders.
+
+Endpoint 9: /api/auth/register-user
+
+Description: Endpoint to register a new user.
+
+Endpoint 10: /api/auth/signin-user
+
+Description: Endpoint to signin.
