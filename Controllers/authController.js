@@ -45,7 +45,7 @@ export const signinUser = async (req, res, next) => {
       { id: userDetail._id, isAdmin: userDetail.isAdmin },
       process.env.JWT_SECRET_KEY
     );
-
+    
     const { password: passkey, ...rest } = userDetail._doc;
 
     res

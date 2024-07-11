@@ -1,9 +1,11 @@
 import express from 'express';
-import { createOrder, getOrders } from '../Controllers/orderController.js';
+import { createOrder, getOrders, updateOrder } from '../Controllers/orderController.js';
+import { verifyToken } from '../Middleware/verifyToken.js';
 
 const router= express.Router();
 
-router.post('/create-order', createOrder)
-router.get('/get-order', getOrders)
+router.post('/create-order',verifyToken, createOrder)
+router.get('/get-order',verifyToken, getOrders)
+router.put('/update-order/:id',updateOrder)
 
-export default router;
+export default router; 

@@ -1,5 +1,5 @@
 import Vendor from "../Models/vendorModel.js";
-import { errorHandler } from "../Utils/Error.js";
+import { errorHandler } from "../Utils/Error.js"; 
 
 export const createVendor = async (req, res, next) => {
   const { name, email, phone, address,gst_no, products } = req.body;
